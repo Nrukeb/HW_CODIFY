@@ -1,0 +1,16 @@
+@media screen and (max-width: 2000px) {
+    .container {
+    border: 2px solid red;
+    display: flex;
+    }
+
+    .box {
+    margin: 10px;
+    position: static;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    top: 0;
+    }
+
+}

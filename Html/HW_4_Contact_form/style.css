@@ -1,0 +1,93 @@
+.container {
+    min-height: 150vh;
+}
+
+h1 {
+    margin: 25px;
+}
+
+.container-fields {
+    margin: 20vh;
+    height: 35rem;
+    width: 27rem;
+    /* background-color: yellow; */
+}
+
+.sing_in {
+    /* background-color: brown; */
+    font-size: 20px;
+    width: 200px;
+    height: 150px;
+}
+
+.text1 {
+    width: 400px;
+    height: 25px;
+}
+
+.if_you {margin: 0;}
+
+.you_can {
+    margin-top: 8px ;
+}
+
+.email {
+    color: grey;
+    font-size: 20px;
+    width: 300px;
+    height: 100px;
+}
+
+.enter {
+    margin-top: 15px;
+}
+
+.int {
+    background-color: white;
+    border: 0;
+    width: 200px;
+    height: 20px;  
+    font-size: 16px;
+}
+
+.line {
+    display: inline-block;
+    background: #000842;
+    width: 429px;
+    height: 2px;
+    flex-shrink: 0;
+}
+
+.password{
+    margin-top: 49px;
+}
+
+.pass {
+    background-color: white;
+    border: 0;
+    width: 200px;
+    height: 20px;  
+    font-size: 16px;
+}
+
+.pas {
+    margin-top: 9px;
+}
+
+.button {
+    color: white;
+    border: 0;
+    margin-left: 35px;
+    margin-top: 49px;
+    background-color: blue;
+    width: 350px;
+    height: 53px;
+    flex-shrink: 0;
+    border-radius: 35px;
+    font-size: 20px;
+}
+
+.or {
+    margin-left: 50%;
+    margin-top: 50px;
+}

@@ -1,0 +1,71 @@
+body {
+    min-height: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(44, 235, 235, 0.692);
+}
+
+input {
+    margin-left: 25px;
+    width: 250px;
+    height: 30px;
+    outline: none;
+    border-radius: 4px;
+    padding: 1px 1px 1px 25px ;
+}
+
+.container {
+    border-radius: 8px;
+    width: 30rem;
+    height: 750px;
+    background-color: white;
+}
+
+.todo {
+    margin: 25px;
+        font-size: 50px;
+}
+
+.corc {
+    border: 2px;
+    width: 20px;
+    height: 20px;
+}
+
+.addutodo {
+    display: flex;
+}
+
+.pilus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    width: 36px;
+    height: 36px;
+    background-color: red;
+}
+
+.ul {
+    position: relative;
+    width: 70%;
+    outline: none;
+    padding: 20px 10px;
+    margin-top: 27px;
+    border-radius: 8px;
+    background-color: rgba(248, 248, 248, 0.801);
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 10px;
+}
+
+.int {
+    height: 25px;
+    width: 25px;
+    margin-left: 15px;
+}
+
+.text {
+    margin-left: 25px;
+}

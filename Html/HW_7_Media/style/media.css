@@ -1,0 +1,152 @@
+@media screen and (max-width: 2000px) and (min-width: 1201px){
+    .triangle {
+        width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-top: 100px solid #333;
+    }   
+
+    .square {
+        width: 100px;
+       height: 100px;
+       background:olive;
+    }
+    
+    .circle {
+        width: 120px;
+        height: 120px;
+        background:black;
+        border-radius: 100%;
+        
+    }
+
+    .rectangle {
+        width: 230px;
+        height: 130px;
+        background: yellow;
+    }
+}
+
+
+@media screen and (max-width: 1200px) and (min-width: 884px) {
+    .triangle {
+        width: 100px;
+        height: 100px;
+        background:olive;
+    }   
+
+    .square {
+        width: 120px;
+        height: 120px;
+        background:black;
+        border-radius: 100%;
+    }
+    
+    .circle {
+        width: 230px;
+        height: 130px;
+        background: yellow;
+        
+    }
+
+    .rectangle {
+        width: 200px;
+        height: 100px;
+        background: red;
+        border-radius: 100%;
+    }
+}
+
+
+@media screen and (max-width: 883px) and (min-width: 541px) {
+    .triangle {
+        width: 120px;
+        height: 120px;
+        background:black;
+        border-radius: 100%;
+    }   
+
+    .square {
+        width: 230px;
+        height: 130px;
+        background: yellow;
+    }
+    
+    .circle {
+        width: 200px;
+        height: 100px;
+        background: red;
+        border-radius: 100%;
+    }
+
+    .rectangle {
+        width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-top: 100px solid #333;
+    }
+}
+
+@media screen and (max-width: 540px) and (min-width: 321px){
+    .triangle {
+        width: 230px;
+        height: 130px;
+        background: yellow;
+    }   
+
+    .square {
+        width: 200px;
+        height: 100px;
+        background: red;
+        border-radius: 100%;
+    }
+    
+    .circle {
+        width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-top: 100px solid #333;
+    }
+
+    .rectangle {
+        width: 100px;
+        height: 100px;
+        background:olive;
+    }
+}
+
+
+
+
+@media screen and (max-width: 320px) {
+    .triangle {
+        width: 200px;
+        height: 100px;
+        background: red;
+        border-radius: 100%;
+    }   
+
+    .square {
+        width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-top: 100px solid #333;
+    }
+    
+    .circle {
+        width: 100px;
+        height: 100px;
+        background:olive;
+    }
+
+    .rectangle {
+        width: 120px;
+        height: 120px;
+        background:black;
+        border-radius: 100%;
+    }
+}

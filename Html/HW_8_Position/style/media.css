@@ -1,0 +1,27 @@
+@media screen and (max-width: 1200px) and (min-width: 884px) {
+    #one {
+        position: fixed;
+    }
+}
+
+@media screen and (max-width: 883px) and (min-width:541px){
+    #one {
+        position: sticky;
+    }
+}
+
+@media screen and (max-width: 540px) and (min-width: 321px) {
+    #one {
+        position: absolute;
+        top: 40px;
+        left: 40px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    #one {
+        position: relative;
+        top: 40px;
+        left: 40px;
+    }
+}

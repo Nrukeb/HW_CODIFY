@@ -1,0 +1,115 @@
+body {
+    height: 100vh;
+    background-color: black;
+    margin: 0;
+}
+
+.ainmation_go_container {
+    height: 200px;
+    width: 1000px;
+    margin: 5px;
+    border: 3px solid gray;
+    border-radius: 8px;
+}
+
+.ainmation_go {
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    border-radius: 100%;
+}
+
+.ainmation_go:hover {
+    animation: ainmation_go 5s;
+}
+
+@keyframes ainmation_go {
+    form {
+        margin-left:0 ;
+    }
+
+    to{
+        margin-left: 800px;
+    }
+}
+
+.container {
+    display: flex;
+}
+
+.container_animation_size {
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+    border: 3px solid gray;
+    border-radius: 8px;
+}
+
+.animation_size {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;  
+}
+
+.animation_size:active {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    animation: resizeElement 2s;
+
+}
+
+@keyframes resizeElement {
+    form {
+        width: 100px;
+        height: 100px;
+    }
+
+    to {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+.animation_background {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    border: 3px solid gray;
+    border-radius: 8px;
+    animation:move 15s infinite alternate;
+}
+
+@keyframes move {
+    0% {
+        background-color: rgb(255, 0, 0);
+    }
+
+    12.5% {
+        background-color: rgb(255, 196, 0);
+    }
+
+    25% {
+        background-color: rgb(0, 255, 21);
+    }
+
+    50% {
+        background-color: rgb(0, 255, 213);
+    }
+
+    52.5% {
+        background-color: rgb(47, 0, 255)
+    }
+
+    75% {
+        background-color: rgb(247, 0, 255);
+    }
+
+    87.5% {
+        background-color: rgb(255, 255, 255);
+    }
+
+    100% {
+        background-color: rgb(0, 0, 0);
+    }
+}
